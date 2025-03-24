@@ -1,0 +1,89 @@
+.check-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.check-label {
+  display: flex;
+  gap: 15px;
+}
+
+.check-input {
+  display: none;
+}
+.check-wrapper1 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-position-x: center;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  background-size: cover;
+}
+
+.check-input:checked ~ .check-wrapper1 {
+  background-image: url(../images/table-tannis.png);
+  background-position-y: top;
+}
+
+.check-input:checked ~ .check-wrapper2 {
+  background-image: url(../images/big-basket.webp);
+  background-position-y: top;
+}
+
+.check-input:checked ~ .check-wrapper3 {
+  background-image: url(../images/volleybol.jpg);
+  background-position-y: top;
+}
+
+.check-input:checked ~ .check-wrapper4 {
+  background-image: url(../images/hokkey.webp);
+  background-position-y: top;
+}
+
+.check-wrapper2 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-position-x: center;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.3s;
+}
+.check-wrapper3 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-position-x: center;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  background-size: cover;
+}
+.check-wrapper4 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-position-x: center;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  background-size: cover;
+}
+
+.check-form-btn {
+  width: 10%;
+  padding: 10px;
+  background-color: rgb(232, 230, 230);
+  color: #000;
+  font-weight: 700;
+}
+.check-label:nth-child(4) {
+  opacity: 50%;
+}
